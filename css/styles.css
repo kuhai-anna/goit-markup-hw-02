@@ -1,6 +1,22 @@
+/* колір h1 #FFFFFF */
+/* колір заголовків тексту #212121 */
+/* колір тексту #757575*/
+/* колір акценту #2196F3 */
+/* пошта і номер телефону у футері rgba(255, 255, 255, 0.6) */
+/* колір хедера #FFFFFF */
+/* основний колір фону сторінки #F5F5F5 */
+/* другорядний колір фону сторінки #F5F4FA */
+/* колір героя та футеру #2F303A */
+
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196f3;
+}
+
 body {
 	background-color: #f5f5f5;
-	color: #757575;
+	color: var(--primary-text-color);
 }
 
 .list {
@@ -14,17 +30,17 @@ body {
 /* лого */
 
 .logo-accent {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 
 /* навігація по сайту */
 .site-nav .link {
-	color: #212121;
+	color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-	color: #2196f3;
+	color: var(--accent-color);
 }
 
 /* список контактів */
@@ -38,23 +54,18 @@ body {
 	color: #ffffff;
 }
 
-/* main */
+/* sections */
 
 .section-title {
-	color: #212121;
+	color: var(--title-text-color);
 }
+
 /* особливості */
+
+.features-list .title {
+	color: var(--title-text-color);
+}
 
 /* чим ми займаємося */
 
 /* наша команда */
-
-/* колір h1 #FFFFFF */
-/* колір заголовків тексту #212121 */
-/* колір тексту #757575*/
-/* колір акценту #2196F3 */
-/* пошта і номер телефону у футері rgba(255, 255, 255, 0.6) */
-/* колір хедера #FFFFFF */
-/* основний колір фону сторінки #F5F5F5 */
-/* другорядний колір фону сторінки #F5F4FA */
-/* колір героя та футеру #2F303A */
