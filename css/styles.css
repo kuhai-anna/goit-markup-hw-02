@@ -18,6 +18,8 @@
 	--secondary-background-color: #f5f4fa;
 	--accent-background-color: #2f303a;
 	--accent-button-color: #188ce8;
+	--portfolio-border-color: #eeeeee;
+	--portfolio-line-color: #ececec;
 }
 
 body {
@@ -114,6 +116,8 @@ body {
 	background-color: var(--accent-color);
 	border: none;
 	border-radius: 4px;
+
+	cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -230,4 +234,48 @@ body {
 .footer-contacts:hover,
 .footer-contacts:focus {
 	color: var(--accent-color);
+}
+
+/* portfolio */
+/* main */
+
+.filter-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	color: var(--title-text-color);
+
+	background-color: var(--secondary-background-color);
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+	color: var(--primary-background-color);
+
+	background-color: var(--accent-color);
+}
+
+.project-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+
+	color: var(--title-text-color);
+}
+
+.project-description {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+
+	color: var(--primary-text-color);
 }
