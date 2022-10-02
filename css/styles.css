@@ -104,7 +104,7 @@ body {
 	color: #ffffff;
 
 	background-color: var(--accent-color);
-	border: none;
+	border-color: transparent;
 	border-radius: 4px;
 
 	cursor: pointer;
@@ -241,7 +241,7 @@ body {
 
 	background-color: var(--secondary-background-color);
 	border-radius: 4px;
-	border: none;
+	border-color: transparent;
 	cursor: pointer;
 }
 
